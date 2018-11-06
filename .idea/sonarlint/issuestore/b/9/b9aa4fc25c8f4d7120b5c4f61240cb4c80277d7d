@@ -1,0 +1,8 @@
+
+qsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ËäÌÙ8Ê÷•Äî,
+lsquid:S1192"KDefine a constant instead of duplicating this literal "user.email" 3 times.(¦ß³úÿÿÿÿ8Ê÷•Äî,
+Lsquid:S1068"+Remove this unused "request" private field.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
+wsquid:S1450"VRemove the "request" field and declare it as a local variable in the relevant methods.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
+usquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8Ê÷•Äî,
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¶Ô¸êşÿÿÿÿ8Ê÷•Äî,
+Jsquid:S1948")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ8Ê÷•Äî,

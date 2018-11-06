@@ -1,0 +1,6 @@
+
+Wsquid:S00107"AConstructor has 9 parameters, which is greater than 7 authorized.(ŸªÆø
+Vsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX8ê¸˜Äî,
+asquid:UselessImportCheck"8Remove this unused import 'javax.persistence.FetchType'.(‡¯¿8œË™Äî,
+`squid:UselessImportCheck"8Remove this unused import 'javax.persistence.OneToMany'.(«õù;8œË™Äî,
+Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8œË™Äî,
