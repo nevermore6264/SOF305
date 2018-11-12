@@ -1,10 +1,13 @@
 
-bsquid:S1192"FDefine a constant instead of duplicating this literal "error" 4 times.(ÿªëù8±ì•Äî,
-isquid:S1192"HDefine a constant instead of duplicating this literal "success" 3 times.(ğûôÀüÿÿÿÿ8±ì•Äî,
-Psquid:S1066"/Merge this if statement with the enclosing one.(ÆÉëµûÿÿÿÿ8±ì•Äî,
-Psquid:S1066"/Merge this if statement with the enclosing one.(ÆÉëµûÿÿÿÿ8±ì•Äî,
-Ksquid:S1066"/Merge this if statement with the enclosing one.(ª¶ÄÍ8±ì•Äî,
-usquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8±ì•Äî,
-usquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8±ì•Äî,
-usquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8±ì•Äî,
-Jsquid:S1948")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ8±ì•Äî,
+Nsquid:S1066—"/Merge this if statement with the enclosing one.(ª¶ÄÍ8±ì•Äî,
+ksquid:S1192K"HDefine a constant instead of duplicating this literal "success" 3 times.(ğûôÀüÿÿÿÿ8±ì•Äî,
+wsquid:S3973q"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8±ì•Äî,
+Osquid:S1948%",Make "categories" transient or serializable.(‚˜ºŠùÿÿÿÿ8–İöÄî,
+Lsquid:S1948(")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ8±ì•Äî,
+Tsquid:S1948""1Make "categoryDAOImpl" transient or serializable.(Ğ”«üÿÿÿÿ8–İöÄî,
+Rsquid:S1066h"/Merge this if statement with the enclosing one.(ÆÉëµûÿÿÿÿ8±ì•Äî,
+dsquid:S1192M"FDefine a constant instead of duplicating this literal "error" 4 times.(ÿªëù8±ì•Äî,
+Rsquid:S1066E"/Merge this if statement with the enclosing one.(ÆÉëµûÿÿÿÿ8±ì•Äî,
+xsquid:S3973Š"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8±ì•Äî,
+Msquid:S1948&"*Make "category" transient or serializable.(şÖİÑüÿÿÿÿ8–İöÄî,
+wsquid:S3973L"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8±ì•Äî,

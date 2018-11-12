@@ -1,7 +1,14 @@
 
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìÓ¯èûÿÿÿÿ
-qsquid:S1450"WRemove the "category" field and declare it as a local variable in the relevant methods.(şÖİÑüÿÿÿÿ
-Lsquid:S2589"7Remove this expression which always evaluates to "true"(µ°Éù
-Csquid:S1948")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(úªÎºúÿÿÿÿ
-msquid:S1450"SRemove the "user" field and declare it as a local variable in the relevant methods.(’Ø¾ıÿÿÿÿ
+ysquid:S1450."VRemove the "request" field and declare it as a local variable in the relevant methods.(ù´÷·úÿÿÿÿ8¾€ÚÄî,
+Hsquid:S1948*"*Make "products" transient or serializable.(ô¬´É8ºØÄî,
+Isquid:S1948%"&Make "user" transient or serializable.(’Ø¾ıÿÿÿÿ8ºØÄî,
+Ssquid:S1948!"0Make "productDAOImpl" transient or serializable.(í‘ßâùÿÿÿÿ8ºØÄî,
+Psquid:S1948$"-Make "userDAOImpl" transient or serializable.(â”Åıÿÿÿÿ8ºØÄî,
+Lsquid:S1948,")Make "product" transient or serializable.(„¼”Úùÿÿÿÿ8ºØÄî,
+Nsquid:S1068."+Remove this unused "request" private field.(ù´÷·úÿÿÿÿ8¾€ÚÄî,
+Esquid:S1948.")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ
+Msquid:S1948+"*Make "category" transient or serializable.(şÖİÑüÿÿÿÿ8ºØÄî,
+ssquid:S1450+"WRemove the "category" field and declare it as a local variable in the relevant methods.(şÖİÑüÿÿÿÿ
+usquid:S2293a"YReplace the type specification in this constructor call with the diamond operator ("<>").(úªÎºúÿÿÿÿ
+osquid:S1450%"SRemove the "user" field and declare it as a local variable in the relevant methods.(’Ø¾ıÿÿÿÿ
+Tsquid:S1948 "1Make "categoryDAOImpl" transient or serializable.(Ğ”«üÿÿÿÿ8ºØÄî,

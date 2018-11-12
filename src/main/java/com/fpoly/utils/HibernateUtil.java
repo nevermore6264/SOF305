@@ -1,36 +1,30 @@
 package com.fpoly.utils;
 
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 public class HibernateUtil {
-
-	private static final SessionFactory sessionFactory;
-
-	static {
-		// A SessionFactory is set up once for an application!
-		StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure() // configures settings from
-																							// hibernate.cfg.xml.
-																							// In Maven project, this
-																							// xml file is in
-																							// src/main/resources.
-				.build();
-		try {
-			sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-		} catch (Throwable ex) {
-			// The registry would be destroyed by the SessionFactory, but we had
-			// trouble building the SessionFactory
-			// so destroy it manually.
-			StandardServiceRegistryBuilder.destroy(registry);
-			// Log the exception.
-			System.err.println("Initial SessionFactory creation failed." + ex);
-			throw new ExceptionInInitializerError(ex);
-		}
-	}
+	private static StandardServiceRegistry registry;
+	private static SessionFactory sessionFactory;
 
 	public static SessionFactory getSessionFactory() {
+		if (sessionFactory == null) {
+			try {
+				registry = new StandardServiceRegistryBuilder().configure().build();
+				MetadataSources sources = new MetadataSources(registry);
+				Metadata metadata = sources.getMetadataBuilder().build();
+				sessionFactory = metadata.getSessionFactoryBuilder().build();
+
+			} catch (Exception e) {
+				e.printStackTrace();
+				if (registry != null) {
+					StandardServiceRegistryBuilder.destroy(registry);
+				}
+			}
+		}
 		return sessionFactory;
 	}
 }

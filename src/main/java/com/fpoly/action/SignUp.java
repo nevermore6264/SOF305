@@ -163,10 +163,10 @@ public class SignUp extends ActionSupport implements ServletRequestAware, Sessio
 				else if (!userDAOImpl.find(user.getEmail()).isEmpty() && bool)
 					this.addFieldError("user.email", "Email đã có trong hệ thống.");
 			}
-			// check password
-			if (password != null && password.isEmpty()) {
-				this.addFieldError("password", "Mật khẩu không được để trống.");
-			}
+//			// check password
+//			if (password != null && password.isEmpty()) {
+//				this.addFieldError("password", "Mật khẩu không được để trống.");
+//			}
 		}
 	}
 

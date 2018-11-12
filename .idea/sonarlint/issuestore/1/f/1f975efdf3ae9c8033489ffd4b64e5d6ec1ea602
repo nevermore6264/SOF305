@@ -1,12 +1,15 @@
 
-jsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ËäÌÙ
-[squid:S1192"FDefine a constant instead of duplicating this literal "error" 4 times.(ÿªëù
-nsquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ
-Isquid:S1066"/Merge this if statement with the enclosing one.(¤¦ß‘üÿÿÿÿ
-Csquid:S1948")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ
-nsquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ
-esquid:S1192"KDefine a constant instead of duplicating this literal "user.email" 3 times.(¦ß³úÿÿÿÿ
-Isquid:S1066"/Merge this if statement with the enclosing one.(¤¦ß‘üÿÿÿÿ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¶Ô¸êşÿÿÿÿ
-nsquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ
-bsquid:S1192"HDefine a constant instead of duplicating this literal "success" 3 times.(ğûôÀüÿÿÿÿ
+psquid:S3973}"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ
+osquid:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¶Ô¸êşÿÿÿÿ
+Esquid:S1948$"'Make "users" transient or serializable.(’¶óƒ8øûôÄî,
+]squid:S1192D"FDefine a constant instead of duplicating this literal "error" 4 times.(ÿªëù
+dsquid:S1192B"HDefine a constant instead of duplicating this literal "success" 3 times.(ğûôÀüÿÿÿÿ
+Esquid:S1948(")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ
+Ksquid:S1066]"/Merge this if statement with the enclosing one.(¤¦ß‘üÿÿÿÿ
+psquid:S3973C"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ
+Isquid:S1948%"&Make "user" transient or serializable.(’Ø¾ıÿÿÿÿ8øûôÄî,
+Psquid:S1948!"-Make "userDAOImpl" transient or serializable.(â”Åıÿÿÿÿ8øûôÄî,
+Ksquid:S1066>"/Merge this if statement with the enclosing one.(¤¦ß‘üÿÿÿÿ
+hsquid:S1192 "KDefine a constant instead of duplicating this literal "user.email" 3 times.(¦ß³úÿÿÿÿ
+psquid:S3973f"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ
+msquid:S2068¨"U'password' detected in this expression, review this potentially hardcoded credential.(ËäÌÙ

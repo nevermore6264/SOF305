@@ -11,7 +11,6 @@ public class Convert {
 	private static final Pattern NORMALIZE_NON_ASCII = Pattern.compile("[^\\p{ASCII}]+");
 	private static final Pattern NONLATIN = Pattern.compile("[^\\w-]");
 	private static final Pattern WHITESPACE = Pattern.compile("[\\s]");
-	// In thÆ°á»�ng
 
 	public static String toSlug(String input) {
 		String nowhitespace = WHITESPACE.matcher(input).replaceAll("-");

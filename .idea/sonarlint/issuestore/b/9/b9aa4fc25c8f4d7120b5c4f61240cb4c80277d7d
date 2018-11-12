@@ -1,8 +1,11 @@
 
-qsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ËäÌÙ8Ê÷•Äî,
-lsquid:S1192"KDefine a constant instead of duplicating this literal "user.email" 3 times.(¦ß³úÿÿÿÿ8Ê÷•Äî,
-Lsquid:S1068"+Remove this unused "request" private field.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
-wsquid:S1450"VRemove the "request" field and declare it as a local variable in the relevant methods.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
-usquid:S3973"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8Ê÷•Äî,
-ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¶Ô¸êşÿÿÿÿ8Ê÷•Äî,
-Jsquid:S1948")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
+ssquid:S2068m"U'password' detected in this expression, review this potentially hardcoded credential.(ËäÌÙ8Ê÷•Äî,
+nsquid:S1192e"KDefine a constant instead of duplicating this literal "user.email" 3 times.(¦ß³úÿÿÿÿ8Ê÷•Äî,
+ysquid:S1450("VRemove the "request" field and declare it as a local variable in the relevant methods.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
+Lsquid:S1948(")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ8Ê÷•Äî,
+Psquid:S1948!"-Make "userDAOImpl" transient or serializable.(â”Åıÿÿÿÿ8·êöÄî,
+usquid:S3776L"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¶Ô¸êşÿÿÿÿ8Ê÷•Äî,
+wsquid:S3973B"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØ8Ê÷•Äî,
+Esquid:S1948$"'Make "users" transient or serializable.(’¶óƒ8·êöÄî,
+Isquid:S1948%"&Make "user" transient or serializable.(’Ø¾ıÿÿÿÿ8·êöÄî,
+Nsquid:S1068("+Remove this unused "request" private field.(ù´÷·úÿÿÿÿ8Ê÷•Äî,

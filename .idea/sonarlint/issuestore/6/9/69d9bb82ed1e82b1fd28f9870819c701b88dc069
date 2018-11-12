@@ -1,5 +1,7 @@
 
-Dsquid:S1066"/Merge this if statement with the enclosing one.(ïá¢
-Csquid:S1948")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¶Ô¸êşÿÿÿÿ
-Dsquid:S1066"/Merge this if statement with the enclosing one.(Ã¸ûÊ
+Isquid:S1948"&Make "user" transient or serializable.(’Ø¾ıÿÿÿÿ8ÔİôÄî,
+Fsquid:S1066U"/Merge this if statement with the enclosing one.(ïá¢
+Psquid:S1948"-Make "userDAOImpl" transient or serializable.(â”Åıÿÿÿÿ8ÔİôÄî,
+Esquid:S1948!")Make "request" transient or serializable.(ù´÷·úÿÿÿÿ
+Fsquid:S1066V"/Merge this if statement with the enclosing one.(Ã¸ûÊ
+nsquid:S3776I"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¶Ô¸êşÿÿÿÿ
